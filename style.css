@@ -1,0 +1,148 @@
+/* 🌿 Global Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* 🌿 Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4CAF50;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+.logo span {
+  color: #c8f7c5;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #eaffea;
+}
+
+/* 🌤️ Hero Section */
+.hero {
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  color: #333;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #4CAF50;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #388E3C;
+}
+
+/* 💡 Services Section */
+.services {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.services h2 {
+  color: #4CAF50;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.service-card {
+  background: #f1f8e9;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background 0.3s;
+}
+.service-card:hover {
+  background: #e8f5e9;
+  transform: scale(1.03);
+}
+
+.service-card h3 {
+  color: #388E3C;
+}
+
+.btn-small {
+  background: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn-small:hover {
+  background: #2e7d32;
+}
+
+/* ❤️ About Section */
+.about {
+  padding: 60px 20px;
+  background: #f0fff4;
+  text-align: center;
+}
+
+.about h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* 📞 Footer */
+footer {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}

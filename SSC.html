@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Symptom Checker</title>
+  <link rel="stylesheet" href="ssc.css">
+  <script src="ssc.js" defer></script>
+</head>
+<body>
+
+  <a href="index.html" class="back-home">← Back to Home</a>
+
+  <div class="container">
+    <h1>Smart Symptom Checker 🩺</h1>
+    <p class="subtitle">Enter your symptom below and get a quick health overview.</p>
+
+    <input type="text" id="symptomInput" placeholder="Type a symptom (e.g. fever, headache, cough)..." />
+    <button id="checkBtn">Check</button>
+
+    <div id="resultBox" class="result-box" style="display:none;">
+      <h2>Diagnosis Result</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Symptom</th>
+            <th>Possible Diagnosis</th>
+            <th>Advice / Treatment</th>
+          </tr>
+        </thead>
+        <tbody id="resultBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <p class="disclaimer">
+    ⚠️ This tool is for educational purposes only. Please consult a doctor for professional medical advice.
+  </p>
+
+</body>
+</html>
