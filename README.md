@@ -63,6 +63,9 @@ Click “Open with Live Server”
 Browser opens at
 http://localhost:5500/
 
+
+my live server website    https://yaswanthyash6453.github.io/Smart_HealthCare_Assistent/
+
 🧪 Future Enhancements
 
 AI model-based symptom prediction
@@ -76,3 +79,4 @@ Connect to a backend (Flask/Django)
 📜 License
 
 MIT License – free to use & modify.
+
